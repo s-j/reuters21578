@@ -29,24 +29,25 @@ Then, `TextClassifier` finds a subset of topics having both TRAIN and TEST decis
 
 Finally, `TextClassifier` discards all models with F1 below 0.1 and print the evaluation metrics for the remaining models, which gives be the following:
 
-    topic     precision   recall   accuracy    F1
-    corn        0.556     0.357     0.992     0.435
-    ship        0.778     0.236     0.988     0.362
-    acq        0.627     0.808     0.922     0.706
-    livestock    0.222     0.083     0.995     0.121
-    grain       0.785     0.685     0.988     0.731
-    veg-oil      0.667     0.162     0.995     0.261
-    cocoa       1.000     0.056     0.997     0.105
-    sugar       0.538     0.194     0.994     0.286
-    crude       0.842     0.677     0.986     0.751
-    money-fx      0.700     0.583     0.981     0.636
-    interest      0.812     0.293     0.983     0.431
-    wheat       0.704     0.535     0.992     0.608
-    soybean      0.769     0.303     0.996     0.435
-    oilseed      0.647     0.234     0.993     0.344
-    dlr        0.800     0.091     0.993     0.163
-    trade       0.596     0.265     0.983     0.367
-    earn        0.680     0.938     0.911     0.788
-    coffee       0.667     0.286     0.996     0.400
+|topic | precision | recall | accuracy | F1 |
+|------|-----------|--------|----------|----|
+| corn | 0.556 | 0.357 | 0.992 | 0.435 |
+| ship | 0.778 | 0.236 | 0.988 | 0.362 |
+| acq | 0.627 | 0.808 | 0.922 | 0.706 |
+| livestock | 0.222 | 0.083 | 0.995 | 0.121 |
+| grain | 0.785 | 0.685 | 0.988 | 0.731 |
+| veg-oil | 0.667 | 0.162 | 0.995 | 0.261 |
+| cocoa | 1.000 | 0.056 | 0.997 | 0.105 |
+| sugar | 0.538 | 0.194 | 0.994 | 0.286 |
+| crude | 0.842 | 0.677 | 0.986 | 0.751 |
+| money-fx | 0.700 | 0.583 | 0.981 | 0.636 |
+| interest | 0.812 | 0.293 | 0.983 | 0.431 |
+| wheat | 0.704 | 0.535 | 0.992 | 0.608 |
+| soybean | 0.769 | 0.303 | 0.996 | 0.435 |
+| oilseed | 0.647 | 0.234 | 0.993 | 0.344 |
+| dlr | 0.800 | 0.091 | 0.993 | 0.163 |
+| trade | 0.596 | 0.265 | 0.983 | 0.367 |
+| earn | 0.680 | 0.938 | 0.911 | 0.788 |
+| coffee | 0.667 | 0.286 | 0.996 | 0.400 |
 
 Note that `TextClassifier` currently lacks unit tests and an end-to-end test, which will be added at some point in future.
